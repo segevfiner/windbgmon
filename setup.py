@@ -48,6 +48,7 @@ setup(
         "dev": [
             "flake8",
             "sphinx==4.*",
+            "pytest",
         ],
     },
 )

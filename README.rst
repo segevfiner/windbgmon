@@ -8,7 +8,7 @@ Quick Start:
 
     import windbgmon
 
-    with DbgMon() as dbgmon:
+    with windbgmon.DbgMon() as dbgmon:
         for pid, msg in dbgmon:
             print(f"[{pid}] {msg}")
 
