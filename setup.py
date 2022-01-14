@@ -19,7 +19,7 @@ setup(
     long_description_content_type="text/x-rst",
     url="https://github.com/segevfiner/windbgmon",
     project_urls={
-        # "Documentation": "TODO",
+        "Documentation": "https://segevfiner.github.io/windbgmon/",
         "Issue Tracker": "https://github.com/segevfiner/windbgmon/issues",
     },
     license="MIT",
