@@ -12,4 +12,4 @@ Quick Start:
         for pid, msg in dbgmon:
             print(f"[{pid}] {msg}")
 
-Can also be run as a module: `python -m windbgmon`.
+Can also be run as a module: ``python -m windbgmon``.
