@@ -16,7 +16,7 @@ _DBG_DATA_READY_EVENT_NAME = "DBWIN_DATA_READY"
 _GLOBAL_PREFIX = "Global\\"
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 class DbgMon:
