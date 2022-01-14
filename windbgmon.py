@@ -23,6 +23,8 @@ class DbgMon:
     """
     Monitor Windows OutputDebugString messages.
 
+    Set *global_* to ``True`` to monitor messages in the global scope (Session 0).
+
     Yields ``(pid: int, msg: str)`` on iteration. Should be :meth:`closed <close>` when finished.
     """
 
