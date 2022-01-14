@@ -11,7 +11,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
 
 setup(
     name="windbgmon",
-    version="0.1.0",
+    version=version,
     author="Segev Finer",
     author_email="segev208@gmail.com",
     description="Monitor Windows OutputDebugString messages",
