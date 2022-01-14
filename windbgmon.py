@@ -91,8 +91,9 @@ class DbgMon:
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--global", dest="global_", action="store_true")
+    parser = argparse.ArgumentParser(description="Monitor Windows OutputDebugString messages.")
+    parser.add_argument("--global", dest="global_", action="store_true",
+                        help="monitor messages in the global scope (Session 0)")
 
     args = parser.parse_args()
 
