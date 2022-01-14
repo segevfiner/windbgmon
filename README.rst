@@ -2,7 +2,9 @@ windbgmon
 =========
 Monitor Windows OutputDebugString messages.
 
-Quick Start::
+Quick Start:
+
+.. code-block:: python
 
     import windbgmon
 
