@@ -44,7 +44,7 @@ setup(
     install_requires=[
         "pywin32",
     ],
-     extras_require={
+    extras_require={
         "dev": [
             "flake8",
             "sphinx==4.*",
